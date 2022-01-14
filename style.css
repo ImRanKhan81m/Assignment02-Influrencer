@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding:0  50px;
+}
+p{
+    color: rgb(117, 117, 117);
+    line-height: 2em;
+}
+
+/* Main Css */
+#header{
+    max-width: 1400px;
+    margin: auto;
+    padding:30px 0;
+    margin-top: 20px;
+    
+}
+.heading{
+    background-image: url(image/img/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding:30px 0;
+    
+    
+}
+#header h3{
+    font-size: 24px;
+}
+.influencer-heading-items{
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin: auto 0;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.content-btn button{
+    padding:13px  25px;
+    font-size: 16px;
+    font-weight:800 ;
+    border-radius: 30px;
+    margin-top: 30px;
+    background:#f07d02;
+    color: #fff;
+    border: none;
+}
+.content-btn span{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.content-img{
+    width: 60%;
+    text-align: right;
+    
+}
+
+
+/* popular collection css */
+#Collection{
+    margin-top: 120px;
+}
+#Collection .container h2{
+   text-align: center;
+   font-size: 35px;
+   font-weight: 600;
+   margin-bottom: 60px;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+.popular-item{
+    padding:15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.popular-item-img img{
+    width: 100%;
+    
+    
+}
+.popular-item-content h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.popular-item-content h4{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.content-icon i{
+    color: #FB8200;
+}
+.content-icon span{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.popular-item-content p{
+    line-height: normal;
+    margin: 15px 0;
+}
+.see-more{
+    text-align: right;
+    margin-top: 50px;
+}
+.see-more a{
+    text-decoration: none;
+    color:
+    #E02C6D
+     ;
+     font-size: 18px;
+     font-weight: 600;
+     
+}
+
+
+
+
+
+
+
+
+
+#our-influencer{
+    margin-top: 130px;
+}
+#our-influencer .container h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 60px;
+}
+.influencer-persons{
+    display: flex;
+    justify-content: space-between;
+}
+.influencer-person-img img{
+    width: 100%;
+}
+.influencer-person-details span{
+    color: #FB8200;
+    font-weight: 600;
+}
