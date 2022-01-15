@@ -17,8 +17,6 @@ p{
 
 /* Main Css */
 #header{
-    max-width: 1400px;
-    margin: auto;
     padding:30px 0;
     margin-top: 20px;
     
@@ -56,7 +54,7 @@ p{
     background-image: url(image/img/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: right;
-    width: 60%;
+    width: 50%;
     text-align: right;
     padding: 80px 0;
   
@@ -237,10 +235,11 @@ p{
     }
     .content {
         width: 100%;
-        padding: 40px;
+        padding:0px;
     }
-    p {
-        padding-right: 110px;
+    .content p {
+        padding-right:20px;
+        padding-left: 0;
     }
     .content-img {
         background-position: center;
@@ -250,5 +249,39 @@ p{
     }
     .popular-item-content p {
         padding-right: 0px;
+    }
+    .influencer-ratings {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+       text-align: center;
+       align-items: center;
+    }
+    .influencer-persons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:0 50px;
+    }
+    .influencer-person-details h3 {
+        margin-top: 6px;
+        font-size: 22px;
+    }
+    .influencer-feedback {
+        margin-bottom: 40px;
+    }
+    .influencer-feedback span {
+        font-size: 60px;
+    }
+    .influencer-feedback h1 {
+        font-size: 50px; 
+        margin-bottom: 0px;
+        
+    }
+    .influencer-feedback p {
+        text-align: center;
+        padding-right: 0;
+    }
+    .influencer-footer-content p {
+       text-align: center;
+       padding-right: 0;
     }
   }
